@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -17,7 +16,7 @@
   <div class="contenedor-header">
     <header>
       <div class="logo">
-        <a href="#">Carlos</a>
+        <a href="#">Carlos Castro</a>
       </div>
       <nav id="nav">
         <ul>
@@ -38,15 +37,13 @@
   <section id="inicio" class="inicio">
     <div class="contenido-banner">
       <div class="cotenedor-img">
-        <img class="img" src="./imgvideos/mirandoOrisonte.jpeg" alt=""></img>
+        <img class="img" src="./imgvideos/mirandoOrisonte.jpeg" alt="" />
 
         <h1>Carlos Castro Rodríguez</h1>
         <h2>Modelo y Deportista</h2>
         <div class="redes">
           <a href="https://www.facebook.com/carlosdiipum?mibextid=ZbWKwL"><i class="fa-brands fa-facebook-f"></i></a>
           <a href="https://instagram.com/carlos_rca_?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
     </div>
@@ -113,11 +110,22 @@
               <i class="fa-sharp fa-solid fa-camera-retro"></i>
               <span>Fotos</span>
             </div>
+            <div class="interes">
+              <i class="fas fa-hiking"></i>
+              <span>Senderismo</span>
+            </div>
+            <div class="interes">
+              <i class="fas fa-chalkboard-teacher"></i>
+              <span>Idiomas</span>
+            </div>
           </div>
         </div>
       </div>
       <button>
-        Descargar Portafolio <i class="fa-sharp fa-solid fa-download"></i>
+        <a id="download-link" class="download-link" href="./PortafolioCarlosCastro.pdf"
+          download="PortafolioCarlosCastro.pdf">
+          Descargar Portafolio <i class="fa-sharp fa-solid fa-download"></i>
+        </a>
         <span class="overlay"></span>
       </button>
     </div>
@@ -285,20 +293,21 @@
       <h2>CONTACTO</h2>
       <form class="fila" action="https://formsubmit.co/castrorodriguezc9@gmail.com" method="POST">
         <div class="col">
-          <input type="text" name="name" placeholder="Tú Nombre">
-          <input type="text" name="phone" placeholder="Número telefónico">
-          <input type="text" name="email" placeholder="Dirección de correo">
-          <input type="text" name="text" placeholder="Tema">
+          <input type="text" name="name" placeholder="Tú Nombre" required>
+          <input type="text" name="phone" placeholder="Número telefónico" required>
+          <input type="text" name="email" placeholder="Dirección de correo" required>
+          <input type="text" name="text" placeholder="Tema" required>
+          <input type="hidden" name="_subject" value="¡Nuevo envío!">
           <textarea name="comments" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
           <button>
             Enviar mensaje <i class="fas fa-paper-plane"></i>
             <span class="overlay">
-
             </span>
           </button>
         </div>
 
         <div class="col">
+
           <img src="./imgvideos/ubicacion .png" alt="">
 
           <div class="info">
@@ -333,12 +342,18 @@
     <div class="redes">
       <a href="https://www.facebook.com/carlosdiipum?mibextid=ZbWKwL"><i class="fa-brands fa-facebook-f"></i></a>
       <a href="https://instagram.com/carlos_rca_?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
-      <a href="#"><i class="fa-brands fa-twitter"></i></a>
-      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
     </div>
+     <div>
+       <p class="heart">Desarrollado con <i class="fas fa-heart"></i></p>
+      <p class="copyright-text">
+        Copyright &copy; 2023 All Rights Reserved by 
+        <a href="https://instagram.com/vrilly_castro?igshid=ZDdkNTZiNTM=">Vrilli Castro</a>.
+      </p> 
+      </div>
+    
   </footer>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 

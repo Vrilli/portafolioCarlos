@@ -195,6 +195,10 @@ html{
     position: relative;
     z-index: 10;
 }
+.sobremi button .download-link{
+    color: #060606;
+    text-decoration: none;
+}
 .sobremi button .overlay{
   position: absolute;
   top: 0;
@@ -324,6 +328,9 @@ html{
     max-width: 1100px;
     margin: auto;
 }
+.contacto .contenido-seccion .col img{
+    height: 87%;
+}
 .contacto h2{
     font-size: 48px;
     font-family: "Righteous";
@@ -379,10 +386,10 @@ html{
 }
 .contacto .col .info{
     position: absolute;
-    top: 20%;
+    top: 40%;
     background-color: #eef3f6;
     padding: 20px;
-    max-width: 350px;
+    max-width: 450px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -401,9 +408,9 @@ html{
 /*Footer */
 
 footer{
-    background-color: #fff;
-    color: #060606;
-    padding: 50px 0 30px 0;
+    background-color: #282727d5;
+    color: #fff;
+    padding: 20px 0 10px 0;
     text-align: center;
     position: relative;
     width: 100%;
@@ -412,15 +419,15 @@ footer .redes{
     margin-bottom: 20px;
 }
 footer .redes a{
-    color: #0b0b0b;
+    color: #fff;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #111010;
+    border: 1px solid #fff;;
     border-radius: 100%;
     width: 42px;
     height: 42px;
     line-height: 42px;
-    margin: 40px 5px;
+    margin: 20px 5px;
     font-size: 20px;
     transition: .3s;
 }
@@ -428,7 +435,17 @@ footer .redes a{
 footer .redes a:hover{
     background-color: #1CB698;
 }
-
+footer .heart i{
+  color: red;
+}
+.copyright-text
+{
+  margin:0
+}
+.copyright-text a{
+    text-decoration: none;
+    color: #1CB698;
+}
 footer .arriba{
     display: block;
     width: 50px;
@@ -497,7 +514,7 @@ footer .arriba{
     .contacto .col .info{
         top: 50%;
         width: 80%;
-        height: 85%;
+        height: 40%;
     }
 
 
