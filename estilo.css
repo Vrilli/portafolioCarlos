@@ -460,7 +460,7 @@ footer .arriba{
 }
 
 /* section Responsive */
-@media screen and (max-width:390px) {
+@media screen and (max-width:490px) {
     .inicio{
         height: 70%;
         margin-top: 20%;
